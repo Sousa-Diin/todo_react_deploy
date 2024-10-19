@@ -22,7 +22,7 @@ function App() {
 
  return(
   <>
-    <h1>Minha lista de tarefas do dia</h1>
+    <h1>Minha lista de tarefas do dia !</h1>
     <AddItemContainer handleAddItemTaskList={handleAddItemTaskList} />
     <ItemContainer tasklist={taskList} handleRemoveItemTaskList={handleRemoveItemTaskList}/>
   </>
